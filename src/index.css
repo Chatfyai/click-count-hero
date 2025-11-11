@@ -117,3 +117,75 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+.score-number {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  will-change: transform, opacity;
+}
+
+.text-responsive-score {
+  font-size: clamp(120px, min(32vw, 32vh), 220px);
+}
+
+.score-animate-in-up {
+  animation: score-slide-in-up 0.26s ease-out forwards;
+}
+
+.score-animate-in-down {
+  animation: score-slide-in-down 0.26s ease-out forwards;
+}
+
+.score-animate-out-up {
+  animation: score-slide-out-up 0.26s ease-in forwards;
+}
+
+.score-animate-out-down {
+  animation: score-slide-out-down 0.26s ease-in forwards;
+}
+
+@keyframes score-slide-in-up {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -150%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes score-slide-in-down {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 50%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes score-slide-out-up {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -150%);
+  }
+}
+
+@keyframes score-slide-out-down {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, 50%);
+  }
+}

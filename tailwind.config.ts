@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "blue-team": {
+          DEFAULT: "hsl(var(--blue-team))",
+          active: "hsl(var(--blue-team-active))",
+        },
+        "red-team": {
+          DEFAULT: "hsl(var(--red-team))",
+          active: "hsl(var(--red-team-active))",
+        },
+        "reset-button": {
+          DEFAULT: "hsl(var(--reset-button))",
+          hover: "hsl(var(--reset-button-hover))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

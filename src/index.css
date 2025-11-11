@@ -38,12 +38,12 @@ All colors MUST be HSL.
 
     --radius: 1rem;
     
-    --blue-team: 220 80% 50%;
-    --blue-team-active: 220 80% 45%;
-    --red-team: 0 80% 55%;
-    --red-team-active: 0 80% 50%;
-    --reset-button: 240 10% 20%;
-    --reset-button-hover: 240 10% 25%;
+    --blue-team: 217 91% 60%;
+    --blue-team-active: 217 91% 50%;
+    --red-team: 0 84% 60%;
+    --red-team-active: 0 84% 50%;
+    --reset-button: 240 5% 26%;
+    --reset-button-hover: 240 5% 34%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -91,12 +91,12 @@ All colors MUST be HSL.
     --input: 240 10% 20%;
     --ring: 220 80% 50%;
     
-    --blue-team: 220 80% 50%;
-    --blue-team-active: 220 80% 45%;
-    --red-team: 0 80% 55%;
-    --red-team-active: 0 80% 50%;
-    --reset-button: 240 10% 20%;
-    --reset-button-hover: 240 10% 25%;
+    --blue-team: 217 91% 60%;
+    --blue-team-active: 217 91% 50%;
+    --red-team: 0 84% 60%;
+    --red-team-active: 0 84% 50%;
+    --reset-button: 240 5% 26%;
+    --reset-button-hover: 240 5% 34%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
